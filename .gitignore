@@ -1,0 +1,13 @@
+oldssl/
+old-ssl/
+old_ssl/
+*.key
+*.pem
+ssl
+ssl-old
+ssl_old
+node_modules/
+.idea/
+#config.json
+logs/
+/nbproject/private/
