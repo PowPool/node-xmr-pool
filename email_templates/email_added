@@ -1,0 +1,6 @@
+Your email has been setup to receive notifications from the %POOL_HOST% pool.
+
+You can enable/disable these notifications at any time by visiting the pool's
+web interface at:
+
+https://%POOL_HOST%/#settings
