@@ -1,6 +1,8 @@
 # node-xmr-pool
 ========================================
 
+Base on repo https://github.com/Cideg/cryptonote-variant-pool
+
 ## How to deploy on ubuntu 18.04
 
 * install dependences
@@ -44,13 +46,9 @@ sudo cp -Rf website/* /var/www/html/
 
 ## Test on regtest chain
 
-* fetch release from xmr repo 
-
-`https://github.com/monero-project/monero`
-
+* fetch release from xmr repo `https://github.com/monero-project/monero`
 
 * run monerod to start regtest chain
-
 ```
 ./monerod --data-dir=xmr_regtest_data --rpc-bind-ip=127.0.0.1 --rpc-bind-port=18081 --confirm-external-bind --allow-local-ip --disable-rpc-ban --regtest --offline --fixed-difficulty 100000
 ```
@@ -58,7 +56,6 @@ sudo cp -Rf website/* /var/www/html/
 * run `./monero-wallet-cli` and follow the instructions to create a new wallet
 
 * run monero-wallet-rpc to start wallet rpc service
-
 ```
 ./monero-wallet-rpc --wallet-file=MyWallet --password=12345678 --disable-rpc-login --rpc-bind-port=4020 --daemon-address=127.0.0.1:18081 --trusted-daemon
 ```
