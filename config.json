@@ -19,7 +19,7 @@
     "poolServer": {
         "enabled": true,
         "clusterForks": "auto",
-        "poolAddress": "46Ysr3BX67oKVn3ucZefDHHbkDVCwjhKQEKmbJA5biH2EBTXV8EXS6g2ZS7JkxDwNL3RsEFh9BrZqbGS8vsk3pStGe9y6eB",
+        "poolAddress": "47kvb5YGohJjVCD2ssMjYfCdZGKCZRdfEXnCY3F6R7YjFyAb4FH7r269KaE3uGNSKPJR4ydQFSpiRZgQwsHa5pwpJudEbGn",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "sslKey": "privkey.pem",

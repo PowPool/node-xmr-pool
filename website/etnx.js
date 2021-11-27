@@ -1,4 +1,4 @@
-var api = "//45.137.11.136:8117";
+var api = "//110.42.214.102:8117";
 var coinUnits = 1000000000000;
 var poolHost = "pool.electronero.org";
 var showStatus = true; // set to false if you want to hide the poolStatus
