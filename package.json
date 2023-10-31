@@ -10,7 +10,7 @@
     "dependencies": {
         "async": "^1.5.2",
         "base58-native": "^0.1.4",
-        "bignum": "^0.12.5",
+        "bignum": "^0.13.1",
         "cli-color": "^1.2.0",
         "cryptonote-util": "git://github.com/Snipa22/node-cryptonote-util.git#xmr-Nan-2.0",
         "multi-hashing": "git+https://github.com/Snipa22/node-multi-hashing-aesni.git#v0.1",
